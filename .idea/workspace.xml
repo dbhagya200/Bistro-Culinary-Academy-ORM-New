@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e581c10e-de07-41c9-9672-7408cf0aa569" name="Changes" comment="Done!" />
+    <list default="true" id="e581c10e-de07-41c9-9672-7408cf0aa569" name="Changes" comment="Done!">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d63f831-d035-4f92-bc06-3af9634c52a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d63f831-d035-4f92-bc06-3af9634c52a6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/Ijse/entity/tm/CourseTm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/Ijse/entity/tm/CourseTm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/Loding.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/Loding.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +49,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/dilini/Documents/ORM/ORM-Course-Work/src/main/resources/assest",
+    "last_opened_file_path": "/home/dilini/Documents/ORM/Bistro-Culinary-Acedemy-ORM-Course-Work",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -131,7 +137,8 @@
       <workItem from="1732511738086" duration="361000" />
       <workItem from="1732592031561" duration="28720000" />
       <workItem from="1732730032987" duration="480000" />
-      <workItem from="1732775572146" duration="12419000" />
+      <workItem from="1732775572146" duration="13541000" />
+      <workItem from="1732794429188" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="develop UI for Loading,LoginForm,SignUpForm">
       <created>1730564508452</created>
@@ -203,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732560174585</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done!">
+      <option name="closed" value="true" />
+      <created>1732794229420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732794229420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

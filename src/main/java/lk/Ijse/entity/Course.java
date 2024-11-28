@@ -24,12 +24,12 @@ public class Course {
 
     public void addEnrollment(Enrollment enrollment) {
         enrollmentList.add(enrollment);
-        enrollment.setCourse(this);  // This ensures the enrollment knows about the course
+        enrollment.setCourse(this);
     }
 
     public void removeEnrollment(Enrollment enrollment) {
         enrollmentList.remove(enrollment);
-        enrollment.setCourse(null); // Break the relationship
+        enrollment.setCourse(null);
     }
 
     public Course(String cid, String coursename, String duration, Double fee) {

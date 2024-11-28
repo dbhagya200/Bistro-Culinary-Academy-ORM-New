@@ -30,17 +30,17 @@ public class Regex {
             return "Invalid format.";
         }
 
-        return null; // Null indicates valid input
+        return null;
     }
 
     public static boolean setTextColor(TextField textField, JFXTextField textFieldInput) {
         String errorMessage = validate(textField, textFieldInput.getText());
 
-        if (errorMessage == null) { // Valid input
-            textFieldInput.setStyle("-fx-text-fill: black;"); // Change color to black
+        if (errorMessage == null) {
+            textFieldInput.setStyle("-fx-text-fill: black;");
             return true;
-        } else { // Invalid input
-            textFieldInput.setStyle("-fx-text-fill: red;"); // Change color to red
+        } else {
+            textFieldInput.setStyle("-fx-text-fill: red;");
             return false;
         }
     }
@@ -48,11 +48,11 @@ public class Regex {
     public static boolean setTextColor(TextField textField, JFXPasswordField passwordField) {
         String errorMessage = validate(textField, passwordField.getText());
 
-        if (errorMessage == null) { // Valid input
-            passwordField.setStyle("-fx-text-fill: black;"); // Change color to black
+        if (errorMessage == null) {
+            passwordField.setStyle("-fx-text-fill: black;");
             return true;
-        } else { // Invalid input
-            passwordField.setStyle("-fx-text-fill: red;"); // Change color to red
+        } else {
+            passwordField.setStyle("-fx-text-fill: red;");
             return false;
         }
     }

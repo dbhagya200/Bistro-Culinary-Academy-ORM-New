@@ -97,9 +97,9 @@ public class CourseDAOImpl implements CourseDAO {
         Transaction tx = session.beginTransaction();
 
         try {
-            // Fetch the course object based on the ID
+
             Course course = session.get(Course.class, courseId);
-            tx.commit();  // Commit the transaction
+            tx.commit();
             return course;
         } catch (Exception e) {
             tx.rollback();

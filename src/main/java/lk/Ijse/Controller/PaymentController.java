@@ -289,10 +289,6 @@ public class PaymentController implements Initializable {
             }
         }
     }
-                                                                //90 - 10 =80              90 -10 = 80
-                                                                //90-20 = 70               90 -5 = 85
-                                                                //80 - 10 = 70             80 +5 = 85
-                                                                //80 - (20-10) = 70        80 - (5 - 10) = 85
     private void updateremainfees(String id,Double amount,Double previousamount) {
         try {
             String eid = txtenrollmentid.getValue();

@@ -133,7 +133,7 @@ public class EnrollmentDAOImpl implements EnrollmentDAO {
                     .setParameter("studentId", studentId)
                     .setParameter("courseId", courseId)
                     .uniqueResult();
-            return count > 0; // true if the student is already enrolled
+            return count > 0;
         }
     }
 

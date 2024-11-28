@@ -7,6 +7,7 @@ import lombok.*;
 @ToString
 @Getter
 @Setter
+@Data
 
 public class CourseTm {
     private String cid;

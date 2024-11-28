@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="studentform" prefHeight="639.0" prefWidth="1162.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.Ijse.Controller.StudentController">
+   <children>
+      <AnchorPane layoutX="747.0" layoutY="116.0" prefHeight="496.0" prefWidth="402.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton fx:id="btnaddstudent" layoutX="37.0" layoutY="416.0" onAction="#btnaddstudentOnAction" prefHeight="29.0" prefWidth="353.0" style="-fx-background-color: #88C273; -fx-background-radius: 10;" text="Add Student" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnupdate" layoutX="36.0" layoutY="374.0" onAction="#btnupdateOnAction" prefHeight="27.0" prefWidth="116.0" style="-fx-background-color: FC8F54; -fx-background-radius: 10;" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnclear" layoutX="159.0" layoutY="376.0" onAction="#btnclearOnAction" prefHeight="27.0" prefWidth="116.0" style="-fx-background-color: #4A628A; -fx-background-radius: 10;" text="Clear" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btndelete" layoutX="282.0" layoutY="379.0" onAction="#btndeleteOnAction" prefHeight="27.0" prefWidth="106.0" style="-fx-background-color: CC2B52; -fx-background-radius: 10;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
+      <Label layoutX="148.0" layoutY="23.0" text="Student Management">
+         <font>
+            <Font name="Comic Sans MS" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="880.0" layoutY="41.0" text="Student Id :">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtstudentid" editable="false" layoutX="994.0" layoutY="32.0" onKeyReleased="#txtstudentidOnKeyReleased" prefHeight="29.0" prefWidth="142.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <Label layoutX="780.0" layoutY="225.0" text="Student Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtstudentname" layoutX="907.0" layoutY="214.0" onKeyReleased="#txtstudentnameOnKeyReleased" prefHeight="29.0" prefWidth="210.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <Label layoutX="828.0" layoutY="293.0" text="Address : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtaddress" layoutX="912.0" layoutY="282.0" onKeyReleased="#txtaddressOnKeyReleased" prefHeight="29.0" prefWidth="210.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <Label layoutX="864.0" layoutY="352.0" text="Tel : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txttel" layoutX="912.0" layoutY="341.0" onKeyReleased="#txttelOnKeyReleased" prefHeight="29.0" prefWidth="210.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <Label layoutX="846.0" layoutY="413.0" text="Email : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtemail" layoutX="912.0" layoutY="402.0" onKeyReleased="#txtemailOnKeyReleased" prefHeight="29.0" prefWidth="210.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <TableView fx:id="tblstudent" layoutX="21.0" layoutY="117.0" onMouseClicked="#rowOnMouseClicked" prefHeight="496.0" prefWidth="712.0">
+        <columns>
+          <TableColumn fx:id="colstudentid" prefWidth="87.0" text="Student Id" />
+          <TableColumn fx:id="colstudentname" minWidth="0.0" prefWidth="136.0" text="Student Name" />
+            <TableColumn fx:id="coladdress" minWidth="0.0" prefWidth="133.0" text="Address" />
+            <TableColumn fx:id="coltel" minWidth="0.0" prefWidth="144.0" text="Telephone Number" />
+            <TableColumn fx:id="colemail" minWidth="0.0" prefWidth="211.0" text="Email" />
+        </columns>
+      </TableView>
+      <JFXTextField fx:id="txtsearch" layoutX="803.0" layoutY="144.0" onKeyReleased="#txtsearchOnKeyReleased" prefHeight="29.0" prefWidth="196.0" style="-fx-text-fill: black;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="btnsearchstudent" layoutX="1012.0" layoutY="143.0" onAction="#btnsearchstudentOnAction" prefHeight="29.0" prefWidth="87.0" style="-fx-background-color: #219B9D; -fx-background-radius: 10;" text="Search 🔍" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </JFXButton>
+      <Pane layoutX="78.0" layoutY="11.0" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #D7D7D7; -fx-background-radius: 10;">
+         <children>
+            <ImageView fitHeight="39.89" fitWidth="41.68" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icon/icons8-students-50%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="975.0" layoutX="179.0" layoutY="86.0" startX="-145.0" />
+   </children>
+</AnchorPane>

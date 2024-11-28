@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e581c10e-de07-41c9-9672-7408cf0aa569" name="Changes" comment="Done!" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2oIL1piNZ7OoFWQ1U4EUqPLXptf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Wrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "<unknown>",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dilini/Documents/ORM/ORM-Course-Work/src/main/resources/assest",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "649ae269cb8ba3eca18dfd8f948c8db6",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assest" />
+      <recent name="C:\Users\Nimasha Shehani\ORM-Course-work\src\main\resources\assest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nimasha Shehani\ORM-Course-work\src\main\resources\assest" />
+      <recent name="C:\Users\Nimasha Shehani\ORM-Course-work\src\main\resources" />
+      <recent name="C:\Users\Nimasha Shehani\ORM-Course-work\src\main\resources\view\assest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="lk.Ijse.Wrapper" />
+      <module name="ORM-Course-work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.Ijse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Wrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e581c10e-de07-41c9-9672-7408cf0aa569" name="Changes" comment="" />
+      <created>1730551930498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730551930498</updated>
+      <workItem from="1730551931604" duration="5518000" />
+      <workItem from="1730561794008" duration="3927000" />
+      <workItem from="1730608900637" duration="13606000" />
+      <workItem from="1730692711396" duration="5512000" />
+      <workItem from="1730726362911" duration="5789000" />
+      <workItem from="1730778636834" duration="4842000" />
+      <workItem from="1730784500186" duration="34798000" />
+      <workItem from="1730859967716" duration="323000" />
+      <workItem from="1730860405307" duration="10838000" />
+      <workItem from="1730890657009" duration="2964000" />
+      <workItem from="1730974757407" duration="5258000" />
+      <workItem from="1731211792785" duration="463000" />
+      <workItem from="1731394408701" duration="599000" />
+      <workItem from="1731508966417" duration="537000" />
+      <workItem from="1731574687829" duration="595000" />
+      <workItem from="1731663720730" duration="598000" />
+      <workItem from="1731677401985" duration="21000" />
+      <workItem from="1731991688047" duration="68000" />
+      <workItem from="1732081786668" duration="90000" />
+      <workItem from="1732163559908" duration="306000" />
+      <workItem from="1732341852203" duration="305000" />
+      <workItem from="1732428104894" duration="21200000" />
+      <workItem from="1732511738086" duration="28898000" />
+      <workItem from="1732511738086" duration="361000" />
+      <workItem from="1732592031561" duration="28720000" />
+      <workItem from="1732730032987" duration="480000" />
+      <workItem from="1732775572146" duration="12419000" />
+    </task>
+    <task id="LOCAL-00001" summary="develop UI for Loading,LoginForm,SignUpForm">
+      <created>1730564508452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730564508452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="develop UI for Loading,LoginForm,SignUpForm,Dashboard,Customer">
+      <created>1730628497255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730628497255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="develop all UIs">
+      <created>1730657730891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730657730891</updated>
+    </task>
+    <task id="LOCAL-00004" summary="User is Done!">
+      <created>1730814939190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730814939190</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Student is Done!">
+      <created>1730818099770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730818099770</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed some bug in student!">
+      <created>1730819330120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730819330120</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Payment is done!">
+      <created>1732512402198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732512402198</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Profile &amp; change password is done!">
+      <created>1732541823850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732541823850</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Done!">
+      <created>1732560157108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732560157108</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Done!">
+      <created>1732560174585</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732560174585</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="develop UI for Loading,LoginForm,SignUpForm" />
+    <MESSAGE value="develop UI for Loading,LoginForm,SignUpForm,Dashboard,Customer" />
+    <MESSAGE value="develop all UIs" />
+    <MESSAGE value="User is Done!" />
+    <MESSAGE value="Student is Done!" />
+    <MESSAGE value="fixed some bug in student!" />
+    <MESSAGE value="Payment is done!" />
+    <MESSAGE value="Profile &amp; change password is done!" />
+    <MESSAGE value="Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done!" />
+  </component>
+</project>
